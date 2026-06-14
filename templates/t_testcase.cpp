@@ -10,15 +10,21 @@ Unstop = https://unstop.com/u/nikhilps68134
 Contact Email = nikhilkumaraf309@gmail.com 
 */
 
+#include<bits/stdc++.h>
+using namespace std;
+
 // some useful alias 
 using ll = long long;
 using dl =  long double;
 
+// Common Data Structure Shortcuts
+using pii = pair<int, int>;
+using pll = pair<ll, ll>;
+using vi  = vector<int>;
+using vll = vector<ll>;
+using vpii = vector<pii>;
 
-
-
-#include<bits/stdc++.h>
-using namespace std;
+#define pb push_back
 
 void solve(){
 
