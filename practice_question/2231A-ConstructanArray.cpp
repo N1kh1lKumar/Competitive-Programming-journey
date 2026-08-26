@@ -1,0 +1,70 @@
+
+
+
+/*
+Name = Nikihl
+github =https://github.com/N1kh1lKumar
+linked in = https://www.linkedin.com/in/n1kh1lkumar/
+leetcode = https://leetcode.com/u/N1kh1lKumar/
+codolio =  https://codolio.com/profile/N1kh1lKumar
+codeforces = https://codeforces.com/profile/nikhilkumaraf309
+Unstop = https://unstop.com/u/nikhilps68134
+
+Contact Email = nikhilkumaraf309@gmail.com 
+*/
+
+#include<bits/stdc++.h>
+#include<algorithm>
+using namespace std;
+ 
+// some useful alias 
+using ll = long long;
+using dl =  long double;
+ 
+// Common Data Structure Shortcuts
+using pii = pair<int, int>;
+using pll = pair<ll, ll>;
+using vi  = vector<int>;
+using vll = vector<ll>;
+using vpii = vector<pii>;
+ 
+#define pb push_back
+ 
+void solve(){
+ 
+    int n ;
+    cin>>n;
+    vector<int> arr;
+    int temp =1;
+ 
+    for(int i=0;i<n;i++){  // try to generate the array with odd numbers as possible and if not possible then with even numbers
+       arr.push_back(temp);
+        
+       if(temp %2 ==0){  
+        temp += 1;
+       }
+       else{
+        temp += 2;
+       }
+    }
+ 
+    for(int i=0;i<n;i++){
+        cout<<arr[i]<<" ";
+    }
+ 
+    cout <<endl;
+}
+    
+ 
+int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+ 
+    ll t;
+    cin>>t;
+ 
+    while(t--){
+        solve();
+    }
+    return 0;
+}   
