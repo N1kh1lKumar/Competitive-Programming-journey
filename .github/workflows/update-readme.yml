@@ -9,7 +9,9 @@ on:
       - "contest_question/**"
       - "scripts/**"
       - "README.md"
+      - ".github/workflows/**"
 
+  workflow_dispatch:
 permissions:
   contents: write
 
