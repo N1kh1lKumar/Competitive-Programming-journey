@@ -1,3 +1,7 @@
+**Codeforces:** [nikhilkumaraf309](https://codeforces.com/profile/nikhilkumaraf309)  
+**Codechef:** [n1kh1lkumar](https://www.codechef.com/users/n1kh1lkumar)
+**GitHub:** [Repository](https://github.com/N1kh1lKumar/Competitive-Programming-journey/)
+
 # Competitive Programming Journey
 
 This repository contains my solutions to various Competitive Programming problems from different platforms.
