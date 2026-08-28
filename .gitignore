@@ -1,0 +1,16 @@
+.json
+.vscode
+.cph
+main.cpp
+.*o
+*.out
+binary.cpp
+
+# Codeforces API cache
+scripts/codeforces_problems.json
+
+# CPH extension files
+.cph/
+
+# VS Code
+.vscode/
