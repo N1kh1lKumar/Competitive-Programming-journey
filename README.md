@@ -36,14 +36,14 @@ The solutions in this repository are for learning and practice purposes. Some pr
 | Platform | Problems Solved |
 |---|---:|
 | Codeforces | 31 |
-| CodeChef | 6 |
-| **Total** | **37** |
+| CodeChef | 7 |
+| **Total** | **38** |
 
 ## 💻 Languages
 
 | Language | Problems |
 |---|---:|
-| C++ | 37 |
+| C++ | 38 |
 
 ## 🟦 Codeforces
 
@@ -97,10 +97,11 @@ The solutions in this repository are for learning and practice purposes. Some pr
 
 ## 🟧 CodeChef
 
-**Total Problems Solved:** 6
+**Total Problems Solved:** 7
 
 | Code | Problem | Rating | Tags | Language | Solution |
 |---|---|---:|---|---|---|
+| EQUALELE | EQUALELE | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/EQUALELE-EqualElements.cpp) |
 | GROFR | Chef and Groups | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/GROFR%20%20-%20ChefndGroups.cpp) |
 | MNFLP | Minimum Flips | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MNFLP%20-%20Minimum-Flips.cpp) |
 | POSHOP | Posh Shopping | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/POSHOP%20-%20PoshShopping.cpp) |
