@@ -14,3 +14,5 @@ scripts/codeforces_problems.json
 
 # VS Code
 .vscode/
+*.out
+*.exe
