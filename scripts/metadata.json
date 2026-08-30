@@ -1,9 +1,27 @@
 {
   "codechef": {
+    "EQUALELE": {
+      "name": "Equal Elements",
+      "rating": 1123,
+      "tags": [
+        "arrays",
+        "frequency",
+        "sorting"
+      ]
+    },
     "GROFR": {
       "name": "Chef and Groups",
       "rating": null,
       "tags": []
+    },
+    "MISSP": {
+      "name": "Chef and Dolls",
+      "rating": 1012,
+      "tags": [
+        "arrays",
+        "data structures",
+        "bit manipulation"
+      ]
     },
     "MNFLP": {
       "name": "Minimum Flips",
