@@ -35,25 +35,25 @@ The solutions in this repository are for learning and practice purposes. Some pr
 
 | Platform | Problems Solved |
 |---|---:|
-| Codeforces | 31 |
+| Codeforces | 32 |
 | CodeChef | 7 |
-| **Total** | **38** |
+| **Total** | **39** |
 
 ## 💻 Languages
 
 | Language | Problems |
 |---|---:|
-| C++ | 38 |
+| C++ | 39 |
 
 ## 🟦 Codeforces
 
-**Total Problems Solved:** 31
+**Total Problems Solved:** 32
 
 ### ⭐ Rating Distribution
 
 | Rating | Problems |
 |---:|---:|
-| 800 | 22 |
+| 800 | 23 |
 | 900 | 3 |
 | 1000 | 3 |
 | 1100 | 1 |
@@ -83,6 +83,7 @@ The solutions in this repository are for learning and practice purposes. Some pr
 | 1740A | Factorise N+M | 800 | constructive algorithms, number theory | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/1740A%20-%20Factorise%20N+M.cpp) |
 | 1743A | Password | 800 | brute force, combinatorics, implementation, math | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/1743A%20-%20Password.cpp) |
 | 1861A | Prime Deletion | 800 | constructive algorithms, math | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/1861A%20-%20Prime%20Deletion.cpp) |
+| 2149A | Be Positive | 800 | math | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/2149A-BePositive.cpp) |
 | 2167A | Square? | 800 | math, sortings | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/2167A%20-%20Square?.cpp) |
 | 2203A | Towers of Boxes | 800 | math | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/2203A_TowersofBoxes.cpp) |
 | 2225A | A Number Between Two Others | 800 | greedy, math | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/2225A_ANumberBetweenTwoOthers.cpp) |
