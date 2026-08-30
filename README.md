@@ -36,14 +36,14 @@ The solutions in this repository are for learning and practice purposes. Some pr
 | Platform | Problems Solved |
 |---|---:|
 | Codeforces | 32 |
-| CodeChef | 7 |
-| **Total** | **39** |
+| CodeChef | 8 |
+| **Total** | **40** |
 
 ## 💻 Languages
 
 | Language | Problems |
 |---|---:|
-| C++ | 39 |
+| C++ | 40 |
 
 ## 🟦 Codeforces
 
@@ -98,12 +98,13 @@ The solutions in this repository are for learning and practice purposes. Some pr
 
 ## 🟧 CodeChef
 
-**Total Problems Solved:** 7
+**Total Problems Solved:** 8
 
 | Code | Problem | Rating | Tags | Language | Solution |
 |---|---|---:|---|---|---|
 | EQUALELE | EQUALELE | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/EQUALELE-EqualElements.cpp) |
 | GROFR | Chef and Groups | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/GROFR%20%20-%20ChefndGroups.cpp) |
+| MISSP | MISSP | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MISSP-ChefandDolls.cpp) |
 | MNFLP | Minimum Flips | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MNFLP%20-%20Minimum-Flips.cpp) |
 | POSHOP | Posh Shopping | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/POSHOP%20-%20PoshShopping.cpp) |
 | PWTHC | Enough Chairs | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/PWTHC%20-%20EnoughChairs.cpp) |
