@@ -36,14 +36,14 @@ The solutions in this repository are for learning and practice purposes. Some pr
 | Platform | Problems Solved |
 |---|---:|
 | Codeforces | 32 |
-| CodeChef | 8 |
-| **Total** | **40** |
+| CodeChef | 9 |
+| **Total** | **41** |
 
 ## 💻 Languages
 
 | Language | Problems |
 |---|---:|
-| C++ | 40 |
+| C++ | 41 |
 
 ## 🟦 Codeforces
 
@@ -98,10 +98,11 @@ The solutions in this repository are for learning and practice purposes. Some pr
 
 ## 🟧 CodeChef
 
-**Total Problems Solved:** 8
+**Total Problems Solved:** 9
 
 | Code | Problem | Rating | Tags | Language | Solution |
 |---|---|---:|---|---|---|
+| DISTINCTCOL | DISTINCTCOL | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/DISTINCTCOL-DistinctColors.cpp) |
 | EQUALELE | Equal Elements | 1123 | arrays, frequency, sorting | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/EQUALELE-EqualElements.cpp) |
 | GROFR | Chef and Groups | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/GROFR%20%20-%20ChefndGroups.cpp) |
 | MISSP | Chef and Dolls | 1012 | arrays, data structures, bit manipulation | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MISSP-ChefandDolls.cpp) |
