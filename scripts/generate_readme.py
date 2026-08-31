@@ -209,6 +209,69 @@ def extract_codechef_code(filename):
     return None
 
 
+def extract_codechef_name(filename):
+    """
+    Extract a readable CodeChef problem name
+    directly from the filename.
+
+    Examples:
+
+        DISTINCTCOL-DistinctColors.cpp
+        -> Distinct Colors
+
+        MISSP-ChefandDolls.cpp
+        -> Chef and Dolls
+
+        MNFLP-Minimum-Flips.cpp
+        -> Minimum Flips
+    """
+
+    name = Path(filename).stem
+
+    # Remove the problem code and separator.
+    match = re.match(
+        r"^[A-Z0-9]+\s*-\s*(.+)$",
+        name
+    )
+
+    if not match:
+        return name
+
+    title = match.group(1).strip()
+
+    # Replace separators with spaces.
+    title = title.replace("_", " ")
+    title = title.replace("-", " ")
+
+    # Split CamelCase.
+    #
+    # DistinctColors -> Distinct Colors
+    # MinimumFlips -> Minimum Flips
+    title = re.sub(
+        r"(?<=[a-z])(?=[A-Z])",
+        " ",
+        title
+    )
+
+    # Handle "and" when joined with words.
+    #
+    # ChefandDolls -> Chef and Dolls
+    title = re.sub(
+        r"(?i)(?<=\w)and(?=[A-Z])",
+        " and ",
+        title
+    )
+
+    # Normalize whitespace.
+    title = re.sub(
+        r"\s+",
+        " ",
+        title
+    ).strip()
+
+    return title
+
+
 def scan_codechef_solutions():
 
     directory = (
@@ -248,6 +311,10 @@ def scan_codechef_solutions():
 
     return solutions
 
+
+# ============================================================
+# METADATA
+# ============================================================
 
 def load_metadata():
 
@@ -417,14 +484,44 @@ def generate_codechef_section(
             {}
         )
 
+        # ----------------------------------------------------
+        # Problem name
+        # ----------------------------------------------------
+        #
+        # Priority:
+        #
+        # 1. metadata.json name, if available
+        # 2. filename-derived name
+        #
+        # Example:
+        #
+        # DISTINCTCOL-DistinctColors.cpp
+        #
+        # becomes:
+        #
+        # DISTINCTCOL | Distinct Colors
+        #
+
+        filename_name = extract_codechef_name(
+            solution["filename"]
+        )
+
         name = problem.get(
             "name",
-            code
+            filename_name
         )
+
+        # ----------------------------------------------------
+        # Rating
+        # ----------------------------------------------------
 
         rating = problem.get(
             "rating"
         )
+
+        # ----------------------------------------------------
+        # Tags
+        # ----------------------------------------------------
 
         tags = problem.get(
             "tags",
@@ -594,7 +691,9 @@ def main():
     )
     print()
 
+    # --------------------------------------------------------
     # Codeforces
+    # --------------------------------------------------------
 
     codeforces_problems = (
         load_codeforces_problems()
@@ -610,7 +709,9 @@ def main():
         scan_codeforces_solutions()
     )
 
+    # --------------------------------------------------------
     # CodeChef
+    # --------------------------------------------------------
 
     metadata = load_metadata()
 
@@ -618,7 +719,9 @@ def main():
         scan_codechef_solutions()
     )
 
+    # --------------------------------------------------------
     # Generate sections
+    # --------------------------------------------------------
 
     progress_section = (
         generate_progress_section(
@@ -657,6 +760,10 @@ def main():
         + "\n"
         + codechef_section
     )
+
+    # --------------------------------------------------------
+    # Update README
+    # --------------------------------------------------------
 
     update_readme(
         generated_content

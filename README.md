@@ -102,7 +102,7 @@ The solutions in this repository are for learning and practice purposes. Some pr
 
 | Code | Problem | Rating | Tags | Language | Solution |
 |---|---|---:|---|---|---|
-| DISTINCTCOL | DISTINCTCOL | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/DISTINCTCOL-DistinctColors.cpp) |
+| DISTINCTCOL | Distinct Colors | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/DISTINCTCOL-DistinctColors.cpp) |
 | EQUALELE | Equal Elements | 1123 | arrays, frequency, sorting | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/EQUALELE-EqualElements.cpp) |
 | GROFR | Chef and Groups | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/GROFR%20%20-%20ChefndGroups.cpp) |
 | MISSP | Chef and Dolls | 1012 | arrays, data structures, bit manipulation | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MISSP-ChefandDolls.cpp) |
