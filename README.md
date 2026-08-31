@@ -102,14 +102,14 @@ The solutions in this repository are for learning and practice purposes. Some pr
 
 | Code | Problem | Rating | Tags | Language | Solution |
 |---|---|---:|---|---|---|
-| DISTINCTCOL | Distinct Colors | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/DISTINCTCOL-DistinctColors.cpp) |
-| EQUALELE | Equal Elements | 1123 | arrays, frequency, sorting | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/EQUALELE-EqualElements.cpp) |
-| GROFR | Chef and Groups | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/GROFR%20%20-%20ChefndGroups.cpp) |
-| MISSP | Chef and Dolls | 1012 | arrays, data structures, bit manipulation | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MISSP-ChefandDolls.cpp) |
-| MNFLP | Minimum Flips | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MNFLP%20-%20Minimum-Flips.cpp) |
-| POSHOP | Posh Shopping | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/POSHOP%20-%20PoshShopping.cpp) |
-| PWTHC | Enough Chairs | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/PWTHC%20-%20EnoughChairs.cpp) |
-| REGCLN | Regular Cleaning | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/REGCLN%20-%20RegularCleaning.cpp) |
-| WITRH | Within Reach | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/WITRH%20-%20WithinReach.cpp) |
+| DISTINCTCOL | Distinct Colors | 760 | Basic Math, Mathematics | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/DISTINCTCOL-DistinctColors.cpp) |
+| EQUALELE | Equal Elements | 1123 | Frequency Arrays, Data Structures, Arrays | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/EQUALELE-EqualElements.cpp) |
+| GROFR | Chef and Groups | 1176 | Conditional Statements, ad-hoc, Brute Force, Basic Programming Concepts, Algorithms, Constructive | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/GROFR%20%20-%20ChefndGroups.cpp) |
+| MISSP | Chef and Dolls | 1012 | Frequency Arrays, Divisibility, Data Structures, Arrays, Mathematics, Modular Arithmetic | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MISSP-ChefandDolls.cpp) |
+| MNFLP | Minimum Flips | 781 | Basic Programming Concepts, Basic Math, Mathematics | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MNFLP%20-%20Minimum-Flips.cpp) |
+| POSHOP | Posh Shopping | 773 | cakewalk, nishank_adm, start253 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/POSHOP%20-%20PoshShopping.cpp) |
+| PWTHC | Enough Chairs | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/PWTHC%20-%20EnoughChairs.cpp) |
+| REGCLN | Regular Cleaning | 113 | cakewalk, nishank_adm, start253 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/REGCLN%20-%20RegularCleaning.cpp) |
+| WITRH | Within Reach | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/WITRH%20-%20WithinReach.cpp) |
 
 <!-- AUTO-GENERATED:END -->

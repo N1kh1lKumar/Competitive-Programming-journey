@@ -211,24 +211,15 @@ def extract_codechef_code(filename):
 
 def extract_codechef_name(filename):
     """
-    Extract a readable CodeChef problem name
-    directly from the filename.
+    Fallback name extraction from filename.
 
-    Examples:
-
+    Example:
         DISTINCTCOL-DistinctColors.cpp
         -> Distinct Colors
-
-        MISSP-ChefandDolls.cpp
-        -> Chef and Dolls
-
-        MNFLP-Minimum-Flips.cpp
-        -> Minimum Flips
     """
 
     name = Path(filename).stem
 
-    # Remove the problem code and separator.
     match = re.match(
         r"^[A-Z0-9]+\s*-\s*(.+)$",
         name
@@ -239,7 +230,7 @@ def extract_codechef_name(filename):
 
     title = match.group(1).strip()
 
-    # Replace separators with spaces.
+    # Replace separators.
     title = title.replace("_", " ")
     title = title.replace("-", " ")
 
@@ -253,8 +244,6 @@ def extract_codechef_name(filename):
         title
     )
 
-    # Handle "and" when joined with words.
-    #
     # ChefandDolls -> Chef and Dolls
     title = re.sub(
         r"(?i)(?<=\w)and(?=[A-Z])",
@@ -262,7 +251,7 @@ def extract_codechef_name(filename):
         title
     )
 
-    # Normalize whitespace.
+    # Normalize spaces.
     title = re.sub(
         r"\s+",
         " ",
@@ -270,6 +259,152 @@ def extract_codechef_name(filename):
     ).strip()
 
     return title
+
+
+def fetch_codechef_problem(code):
+
+    """
+    Fetch CodeChef problem metadata directly from
+    CodeChef's public problem endpoint.
+
+    Returns:
+        {
+            "name": "...",
+            "rating": ...,
+            "tags": [...]
+        }
+
+    Returns None if the request fails.
+    """
+
+    url = (
+        "https://www.codechef.com/api/"
+        f"contests/PRACTICE/problems/{code}"
+    )
+
+    try:
+
+        request = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": (
+                    "Mozilla/5.0 "
+                    "(compatible; "
+                    "README-Generator/1.0)"
+                ),
+                "Accept": "application/json",
+            }
+        )
+
+        with urllib.request.urlopen(
+            request,
+            timeout=20
+        ) as response:
+
+            data = json.loads(
+                response.read().decode("utf-8")
+            )
+
+        if data.get("status") != "success":
+            return None
+
+        # ----------------------------------------------------
+        # Problem name
+        # ----------------------------------------------------
+
+        name = data.get(
+            "problem_name"
+        )
+
+        # ----------------------------------------------------
+        # Difficulty rating
+        # ----------------------------------------------------
+
+        rating = data.get(
+            "difficulty_rating"
+        )
+
+        if rating in (
+            None,
+            "",
+            "-1",
+            -1
+        ):
+            rating = None
+
+        # Convert numeric string to integer.
+        if isinstance(
+            rating,
+            str
+        ):
+
+            try:
+                rating = int(rating)
+            except ValueError:
+                pass
+
+        # ----------------------------------------------------
+        # Tags
+        # ----------------------------------------------------
+        #
+        # CodeChef exposes:
+        #
+        # user_tags
+        # computed_tags
+        #
+        # Combine both while removing duplicates.
+        #
+
+        user_tags = data.get(
+            "user_tags",
+            []
+        )
+
+        computed_tags = data.get(
+            "computed_tags",
+            []
+        )
+
+        if not isinstance(
+            user_tags,
+            list
+        ):
+            user_tags = []
+
+        if not isinstance(
+            computed_tags,
+            list
+        ):
+            computed_tags = []
+
+        tags = []
+
+        for tag in (
+            user_tags +
+            computed_tags
+        ):
+
+            if not tag:
+                continue
+
+            if tag not in tags:
+                tags.append(tag)
+
+        return {
+            "name": name,
+            "rating": rating,
+            "tags": tags,
+        }
+
+    except Exception as error:
+
+        print(
+            f"WARNING: Could not fetch "
+            f"CodeChef metadata for {code}: "
+            f"{error}"
+        )
+
+        return None
 
 
 def scan_codechef_solutions():
@@ -479,54 +614,131 @@ def generate_codechef_section(
 
         code = solution["code"]
 
-        problem = codechef_metadata.get(
-            code,
-            {}
+        # ----------------------------------------------------
+        # Existing metadata.json entry
+        # ----------------------------------------------------
+
+        local_metadata = (
+            codechef_metadata.get(
+                code,
+                {}
+            )
         )
 
         # ----------------------------------------------------
-        # Problem name
+        # Fetch live CodeChef metadata
         # ----------------------------------------------------
+
+        print(
+            f"Fetching CodeChef metadata: {code}"
+        )
+
+        online_metadata = (
+            fetch_codechef_problem(
+                code
+            )
+        )
+
+        # ----------------------------------------------------
+        # Filename fallback
+        # ----------------------------------------------------
+
+        filename_name = (
+            extract_codechef_name(
+                solution["filename"]
+            )
+        )
+
+        # ----------------------------------------------------
+        # Determine name
         #
         # Priority:
         #
-        # 1. metadata.json name, if available
-        # 2. filename-derived name
-        #
-        # Example:
-        #
-        # DISTINCTCOL-DistinctColors.cpp
-        #
-        # becomes:
-        #
-        # DISTINCTCOL | Distinct Colors
-        #
-
-        filename_name = extract_codechef_name(
-            solution["filename"]
-        )
-
-        name = problem.get(
-            "name",
-            filename_name
-        )
-
-        # ----------------------------------------------------
-        # Rating
+        # 1. Live CodeChef API
+        # 2. metadata.json
+        # 3. Filename
         # ----------------------------------------------------
 
-        rating = problem.get(
-            "rating"
-        )
+        if online_metadata:
+            name = (
+                online_metadata.get(
+                    "name"
+                )
+                or local_metadata.get(
+                    "name"
+                )
+                or filename_name
+            )
+        else:
+            name = (
+                local_metadata.get(
+                    "name"
+                )
+                or filename_name
+            )
 
         # ----------------------------------------------------
-        # Tags
+        # Determine rating
+        #
+        # Priority:
+        #
+        # 1. Live CodeChef API
+        # 2. metadata.json
+        # 3. "-"
         # ----------------------------------------------------
 
-        tags = problem.get(
-            "tags",
-            []
-        )
+        if online_metadata:
+            rating = (
+                online_metadata.get(
+                    "rating"
+                )
+            )
+
+            if rating is None:
+                rating = local_metadata.get(
+                    "rating"
+                )
+
+        else:
+            rating = local_metadata.get(
+                "rating"
+            )
+
+        # ----------------------------------------------------
+        # Determine tags
+        #
+        # Priority:
+        #
+        # 1. Live CodeChef API
+        # 2. metadata.json
+        # 3. "-"
+        # ----------------------------------------------------
+
+        if online_metadata:
+
+            tags = online_metadata.get(
+                "tags",
+                []
+            )
+
+            if not tags:
+                tags = local_metadata.get(
+                    "tags",
+                    []
+                )
+
+        else:
+
+            tags = local_metadata.get(
+                "tags",
+                []
+            )
+
+        if isinstance(
+            tags,
+            str
+        ):
+            tags = [tags]
 
         solution_link = github_file_link(
             solution["path"]
