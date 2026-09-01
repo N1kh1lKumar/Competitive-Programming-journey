@@ -36,14 +36,14 @@ The solutions in this repository are for learning and practice purposes. Some pr
 | Platform | Problems Solved |
 |---|---:|
 | Codeforces | 32 |
-| CodeChef | 10 |
-| **Total** | **42** |
+| CodeChef | 11 |
+| **Total** | **43** |
 
 ## 💻 Languages
 
 | Language | Problems |
 |---|---:|
-| C++ | 42 |
+| C++ | 43 |
 
 ## 🟦 Codeforces
 
@@ -98,7 +98,7 @@ The solutions in this repository are for learning and practice purposes. Some pr
 
 ## 🟧 CodeChef
 
-**Total Problems Solved:** 10
+**Total Problems Solved:** 11
 
 | Code | Problem | Rating | Tags | Language | Solution |
 |---|---|---:|---|---|---|
@@ -110,7 +110,8 @@ The solutions in this repository are for learning and practice purposes. Some pr
 | POSHOP | Posh Shopping | 773 | cakewalk, nishank_adm, start253 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/POSHOP%20-%20PoshShopping.cpp) |
 | PWTHC | Enough Chairs | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/PWTHC%20-%20EnoughChairs.cpp) |
 | REGCLN | Regular Cleaning | 113 | cakewalk, nishank_adm, start253 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/REGCLN%20-%20RegularCleaning.cpp) |
-| SCOCN | Second Occurence | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/SCOCN-SecondOccurence.CPP) |
+| RETAR | Funding ETA 6 | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/RETAR-Funding-ETA-6.cpp) |
+| SCOCN |  Second Occurrence | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/SCOCN-SecondOccurence.CPP) |
 | WITRH | Within Reach | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/WITRH%20-%20WithinReach.cpp) |
 
 <!-- AUTO-GENERATED:END -->
