@@ -1,12 +1,10 @@
 /*
-Name = Nikihl
+Name = Nikhil
 github =https://github.com/N1kh1lKumar
 linked in = https://www.linkedin.com/in/n1kh1lkumar/
 leetcode = https://leetcode.com/u/N1kh1lKumar/
 codolio =  https://codolio.com/profile/N1kh1lKumar
 codeforces = https://codeforces.com/profile/nikhilkumaraf309
-Unstop = https://unstop.com/u/nikhilps68134
-
 Contact Email = nikhilkumaraf309@gmail.com 
 */
 
@@ -24,7 +22,6 @@ using vi  = vector<int>;
 using vll = vector<ll>;
 using vpii = vector<pii>;
 
-#define pb push_back
 
 void solve(){
 
