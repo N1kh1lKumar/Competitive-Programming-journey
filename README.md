@@ -36,14 +36,14 @@ The solutions in this repository are for learning and practice purposes. Some pr
 | Platform | Problems Solved |
 |---|---:|
 | Codeforces | 34 |
-| CodeChef | 12 |
-| **Total** | **46** |
+| CodeChef | 13 |
+| **Total** | **47** |
 
 ## 💻 Languages
 
 | Language | Problems |
 |---|---:|
-| C++ | 46 |
+| C++ | 47 |
 
 ## 🟦 Codeforces
 
@@ -100,7 +100,7 @@ The solutions in this repository are for learning and practice purposes. Some pr
 
 ## 🟧 CodeChef
 
-**Total Problems Solved:** 12
+**Total Problems Solved:** 13
 
 | Code | Problem | Rating | Tags | Language | Solution |
 |---|---|---:|---|---|---|
@@ -108,6 +108,7 @@ The solutions in this repository are for learning and practice purposes. Some pr
 | DOMINANT2 | Dominant Element | 1171 | Frequency Arrays, Data Structures, Arrays | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/DOMINANT2-Dominant_Element.cpp) |
 | EQUALELE | Equal Elements | 1123 | Frequency Arrays, Data Structures, Arrays | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/EQUALELE-EqualElements.cpp) |
 | GROFR | Chef and Groups | 1176 | Conditional Statements, ad-hoc, Brute Force, Basic Programming Concepts, Algorithms, Constructive | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/GROFR%20%20-%20ChefndGroups.cpp) |
+| LISH | Limited Ingredient Shopping | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/LISH-LimitedIngredientShopping.cpp) |
 | MISSP | Chef and Dolls | 1012 | Frequency Arrays, Divisibility, Data Structures, Arrays, Mathematics, Modular Arithmetic | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MISSP-ChefandDolls.cpp) |
 | MNFLP | Minimum Flips | 781 | Basic Programming Concepts, Basic Math, Mathematics | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MNFLP%20-%20Minimum-Flips.cpp) |
 | POSHOP | Posh Shopping | 773 | cakewalk, nishank_adm, start253 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/POSHOP%20-%20PoshShopping.cpp) |
