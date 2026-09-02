@@ -35,25 +35,25 @@ The solutions in this repository are for learning and practice purposes. Some pr
 
 | Platform | Problems Solved |
 |---|---:|
-| Codeforces | 33 |
+| Codeforces | 34 |
 | CodeChef | 12 |
-| **Total** | **45** |
+| **Total** | **46** |
 
 ## 💻 Languages
 
 | Language | Problems |
 |---|---:|
-| C++ | 45 |
+| C++ | 46 |
 
 ## 🟦 Codeforces
 
-**Total Problems Solved:** 33
+**Total Problems Solved:** 34
 
 ### ⭐ Rating Distribution
 
 | Rating | Problems |
 |---:|---:|
-| 800 | 24 |
+| 800 | 25 |
 | 900 | 3 |
 | 1000 | 3 |
 | 1100 | 1 |
@@ -64,6 +64,7 @@ The solutions in this repository are for learning and practice purposes. Some pr
 | ID | Problem | Rating | Tags | Language | Solution |
 |---|---|---:|---|---|---|
 | 151A | Soft Drinking | 800 | implementation, math | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/151A%20-%20Soft%20Drinking.cpp) |
+| 155A | I_love_\%username\% | 800 | brute force | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/155A-I_love_%username%.cpp) |
 | 263A | Beautiful Matrix | 800 | implementation | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/263A%20-%20Beautiful%20Matrix.cpp) |
 | 282A | Bit++ | 800 | implementation | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/282A%20-%20Bit++.cpp) |
 | 474B | Worms | 1200 | binary search, implementation | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/474B_Worms.cpp) |
