@@ -36,14 +36,14 @@ The solutions in this repository are for learning and practice purposes. Some pr
 | Platform | Problems Solved |
 |---|---:|
 | Codeforces | 34 |
-| CodeChef | 13 |
-| **Total** | **47** |
+| CodeChef | 14 |
+| **Total** | **48** |
 
 ## 💻 Languages
 
 | Language | Problems |
 |---|---:|
-| C++ | 47 |
+| C++ | 48 |
 
 ## 🟦 Codeforces
 
@@ -100,10 +100,11 @@ The solutions in this repository are for learning and practice purposes. Some pr
 
 ## 🟧 CodeChef
 
-**Total Problems Solved:** 13
+**Total Problems Solved:** 14
 
 | Code | Problem | Rating | Tags | Language | Solution |
 |---|---|---:|---|---|---|
+| CFRTEST | Devu and friendshiptesting | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/CFRTEST-Devuandfriendshiptesting.cpp) |
 | DISTINCTCOL | Distinct Colors | 760 | Basic Math, Mathematics | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/DISTINCTCOL-DistinctColors.cpp) |
 | DOMINANT2 | Dominant Element | 1171 | Frequency Arrays, Data Structures, Arrays | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/DOMINANT2-Dominant_Element.cpp) |
 | EQUALELE | Equal Elements | 1123 | Frequency Arrays, Data Structures, Arrays | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/EQUALELE-EqualElements.cpp) |
