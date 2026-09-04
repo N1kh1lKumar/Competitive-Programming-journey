@@ -35,25 +35,25 @@ The solutions in this repository are for learning and practice purposes. Some pr
 
 | Platform | Problems Solved |
 |---|---:|
-| Codeforces | 34 |
+| Codeforces | 35 |
 | CodeChef | 17 |
-| **Total** | **51** |
+| **Total** | **52** |
 
 ## 💻 Languages
 
 | Language | Problems |
 |---|---:|
-| C++ | 51 |
+| C++ | 52 |
 
 ## 🟦 Codeforces
 
-**Total Problems Solved:** 34
+**Total Problems Solved:** 35
 
 ### ⭐ Rating Distribution
 
 | Rating | Problems |
 |---:|---:|
-| 800 | 25 |
+| 800 | 26 |
 | 900 | 3 |
 | 1000 | 3 |
 | 1100 | 1 |
@@ -95,6 +95,7 @@ The solutions in this repository are for learning and practice purposes. Some pr
 | 2233B | Different Distances | 900 | constructive algorithms | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codeforces/2233B-%20Different%20Distances.cpp) |
 | 2236A | Games on the Train | 800 | greedy, math | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codeforces/2236A%20-Destroying%20Tower.cpp) |
 | 2237A | Destroying Towers | 800 | games, greedy, schedules | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codeforces/2237A_GamesontheTrain.cpp) |
+| 2242A | Bigrams | 800 | sortings, strings | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/2242A-Bigrams.cpp) |
 | 2254A | Riptide | 800 | implementation, sortings | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/2254A-Riptide.cpp) |
 | 2256A | Three Numbers on the Blackboard | 800 | math, sortings | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/2256A-ThreeNumbersontheBlackboard.cpp) |
 
@@ -110,13 +111,13 @@ The solutions in this repository are for learning and practice purposes. Some pr
 | EQUALELE | Equal Elements | 1123 | Frequency Arrays, Data Structures, Arrays | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/EQUALELE-EqualElements.cpp) |
 | GROFR | Chef and Groups | 1176 | Conditional Statements, ad-hoc, Brute Force, Basic Programming Concepts, Algorithms, Constructive | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/GROFR%20%20-%20ChefndGroups.cpp) |
 | LISH | Limited Ingredient Shopping | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/LISH-LimitedIngredientShopping.cpp) |
-| MAXSUM77 | Maximum Sum | - | raysh07_adm, start254 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MAXSUM77-MaximumSum.cpp) |
-| MISSINGNUM7 | Missing Number | - | raysh07_adm, start254 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MISSINGNUM7-MissingNumber.cpp) |
+| MAXSUM77 | Maximum Sum | 990 | raysh07_adm, start254 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MAXSUM77-MaximumSum.cpp) |
+| MISSINGNUM7 | Missing Number | 151 | raysh07_adm, start254 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MISSINGNUM7-MissingNumber.cpp) |
 | MISSP | Chef and Dolls | 1012 | Frequency Arrays, Divisibility, Data Structures, Arrays, Mathematics, Modular Arithmetic | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MISSP-ChefandDolls.cpp) |
 | MNFLP | Minimum Flips | 781 | Basic Programming Concepts, Basic Math, Mathematics | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MNFLP%20-%20Minimum-Flips.cpp) |
 | POSHOP | Posh Shopping | 773 | cakewalk, nishank_adm, start253 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/POSHOP%20-%20PoshShopping.cpp) |
 | PWTHC | Enough Chairs | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/PWTHC%20-%20EnoughChairs.cpp) |
-| REACHWT | Reach Weight | - | raysh07_adm, start254 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/REACHWT-ReachWeight.cpp) |
+| REACHWT | Reach Weight | 530 | raysh07_adm, start254 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/REACHWT-ReachWeight.cpp) |
 | REGCLN | Regular Cleaning | 113 | cakewalk, nishank_adm, start253 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/REGCLN%20-%20RegularCleaning.cpp) |
 | RETAR | Funding ETA 6 | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/RETAR-Funding-ETA-6.cpp) |
 | SCOCN |  Second Occurrence | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/SCOCN-SecondOccurence.CPP) |
