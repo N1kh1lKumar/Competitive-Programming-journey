@@ -35,19 +35,19 @@ The solutions in this repository are for learning and practice purposes. Some pr
 
 | Platform | Problems Solved |
 |---|---:|
-| Codeforces | 37 |
+| Codeforces | 38 |
 | CodeChef | 17 |
-| **Total** | **54** |
+| **Total** | **55** |
 
 ## 💻 Languages
 
 | Language | Problems |
 |---|---:|
-| C++ | 54 |
+| C++ | 55 |
 
 ## 🟦 Codeforces
 
-**Total Problems Solved:** 37
+**Total Problems Solved:** 38
 
 ### ⭐ Rating Distribution
 
@@ -100,6 +100,7 @@ The solutions in this repository are for learning and practice purposes. Some pr
 | 2242A | Bigrams | 800 | sortings, strings | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/2242A-Bigrams.cpp) |
 | 2254A | Riptide | 800 | implementation, sortings | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/2254A-Riptide.cpp) |
 | 2256A | Three Numbers on the Blackboard | 800 | math, sortings | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/2256A-ThreeNumbersontheBlackboard.cpp) |
+| 2258A | Odd Eraser | - | math | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/2258A-OddEraser.cpp) |
 
 ## 🟧 CodeChef
 
