@@ -35,19 +35,19 @@ The solutions in this repository are for learning and practice purposes. Some pr
 
 | Platform | Problems Solved |
 |---|---:|
-| Codeforces | 40 |
+| Codeforces | 41 |
 | CodeChef | 20 |
-| **Total** | **60** |
+| **Total** | **61** |
 
 ## 💻 Languages
 
 | Language | Problems |
 |---|---:|
-| C++ | 60 |
+| C++ | 61 |
 
 ## 🟦 Codeforces
 
-**Total Problems Solved:** 40
+**Total Problems Solved:** 41
 
 ### ⭐ Rating Distribution
 
@@ -103,6 +103,7 @@ The solutions in this repository are for learning and practice purposes. Some pr
 | 2258A | Odd Eraser | 800 | math | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/2258A-OddEraser.cpp) |
 | 2259A | Moo Language School | 800 | brute force, greedy, two pointers | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codeforces/2259A-MooLanguageSchool.cpp) |
 | 2259B | Minus Two | 800 | math, number theory | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codeforces/2259B-MinusTwo.cpp) |
+| 2260A | Monocarp's Contest | - | implementation | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codeforces/2260A-Monocarp'sContest.cpp) |
 
 ## 🟧 CodeChef
 
@@ -110,11 +111,11 @@ The solutions in this repository are for learning and practice purposes. Some pr
 
 | Code | Problem | Rating | Tags | Language | Solution |
 |---|---|---:|---|---|---|
-| ADDIS | Additive Dissonance | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/ADDIS-AdditiveDissonance.cpp) |
+| ADDIS | Additive Dissonance | 1064 | nishank_adm, start255 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/ADDIS-AdditiveDissonance.cpp) |
 | CFRTEST | Devu and friendshiptesting | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/CFRTEST-Devuandfriendshiptesting.cpp) |
 | DISTINCTCOL | Distinct Colors | 760 | Basic Math, Mathematics | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/DISTINCTCOL-DistinctColors.cpp) |
 | DOMINANT2 | Dominant Element | 1171 | Frequency Arrays, Data Structures, Arrays | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/DOMINANT2-Dominant_Element.cpp) |
-| EGGBUY | Buying Eggs | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/EGGBUY-BuyingEggs.cpp) |
+| EGGBUY | Buying Eggs | 181 | nishank_adm, start255 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/EGGBUY-BuyingEggs.cpp) |
 | EQUALELE | Equal Elements | 1123 | Frequency Arrays, Data Structures, Arrays | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/EQUALELE-EqualElements.cpp) |
 | GROFR | Chef and Groups | 1176 | Conditional Statements, ad-hoc, Brute Force, Basic Programming Concepts, Algorithms, Constructive | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/GROFR%20%20-%20ChefndGroups.cpp) |
 | LISH | Limited Ingredient Shopping | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/LISH-LimitedIngredientShopping.cpp) |
@@ -128,7 +129,7 @@ The solutions in this repository are for learning and practice purposes. Some pr
 | REGCLN | Regular Cleaning | 113 | cakewalk, nishank_adm, start253 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/REGCLN%20-%20RegularCleaning.cpp) |
 | RETAR | Funding ETA 6 | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/RETAR-Funding-ETA-6.cpp) |
 | SCOCN |  Second Occurrence | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/SCOCN-SecondOccurence.CPP) |
-| UNQSHF | Unequal Shuffle | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/UNQSHF-UnequalShuffle.cpp) |
+| UNQSHF | Unequal Shuffle | 726 | nishank_adm, start255 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/UNQSHF-UnequalShuffle.cpp) |
 | WITRH | Within Reach | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/WITRH%20-%20WithinReach.cpp) |
 
 <!-- AUTO-GENERATED:END -->
