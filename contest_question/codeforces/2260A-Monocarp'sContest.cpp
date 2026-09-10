@@ -1,0 +1,68 @@
+/*
+Name = Nikhil
+github =https://github.com/N1kh1lKumar
+linked in = https://www.linkedin.com/in/n1kh1lkumar/
+leetcode = https://leetcode.com/u/N1kh1lKumar/
+codolio =  https://codolio.com/profile/N1kh1lKumar
+codeforces = https://codeforces.com/profile/nikhilkumaraf309
+Contact Email = nikhilkumaraf309@gmail.com 
+*/
+
+#include<bits/stdc++.h>
+using namespace std;
+
+// some useful alias 
+using ll = long long;
+using dl =  long double;
+
+// Common Data Structure Shortcuts
+using pii = pair<int, int>;
+using pll = pair<ll, ll>;
+using vi  = vector<int>;
+using vll = vector<ll>;
+using vpii = vector<pii>;
+
+
+using namespace std;
+
+void solve() {
+    int n;
+    if (!(cin >> n)) return;
+    
+    int count_easy = 0;
+    int first_val = -1, current_val = -1;
+    
+    for (int i = 0; i < n; ++i) {
+        cin >> current_val;
+        if (current_val == 0) {
+            count_easy++;
+        }
+        if (i == 0) {
+            first_val = current_val;
+        }
+    }
+    
+    if (count_easy < 2) {
+        cout << "-1\n";
+    } else {
+        cout << (first_val != 0) + (current_val != 0) << "\n";
+    }
+}
+
+
+
+int main(){
+    
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    int t; 
+    cin >> t;
+
+    while(t--)
+    {
+        solve();
+    }
+
+    return 0;
+}
