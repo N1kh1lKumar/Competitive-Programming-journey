@@ -35,26 +35,26 @@ The solutions in this repository are for learning and practice purposes. Some pr
 
 | Platform | Problems Solved |
 |---|---:|
-| Codeforces | 41 |
+| Codeforces | 43 |
 | CodeChef | 20 |
-| **Total** | **61** |
+| **Total** | **63** |
 
 ## 💻 Languages
 
 | Language | Problems |
 |---|---:|
-| C++ | 61 |
+| C++ | 63 |
 
 ## 🟦 Codeforces
 
-**Total Problems Solved:** 41
+**Total Problems Solved:** 43
 
 ### ⭐ Rating Distribution
 
 | Rating | Problems |
 |---:|---:|
-| 800 | 31 |
-| 900 | 3 |
+| 800 | 32 |
+| 900 | 4 |
 | 1000 | 3 |
 | 1100 | 1 |
 | 1200 | 2 |
@@ -98,9 +98,11 @@ The solutions in this repository are for learning and practice purposes. Some pr
 | 2236A | Games on the Train | 800 | greedy, math | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codeforces/2236A%20-Destroying%20Tower.cpp) |
 | 2237A | Destroying Towers | 800 | games, greedy, schedules | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codeforces/2237A_GamesontheTrain.cpp) |
 | 2242A | Bigrams | 800 | sortings, strings | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/2242A-Bigrams.cpp) |
+| 2252A | Boss Fight | 800 | data structures, greedy | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/2252A-BossFight.cpp) |
 | 2254A | Riptide | 800 | implementation, sortings | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/2254A-Riptide.cpp) |
 | 2256A | Three Numbers on the Blackboard | 800 | math, sortings | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/2256A-ThreeNumbersontheBlackboard.cpp) |
 | 2258A | Odd Eraser | 800 | math | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/2258A-OddEraser.cpp) |
+| 2258B1 | Carrot Chopdown (Easy Version) | 900 | brute force, games, math | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/2258B1-CarrotChopdown(EasyVersion).cpp) |
 | 2259A | Moo Language School | 800 | brute force, greedy, two pointers | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codeforces/2259A-MooLanguageSchool.cpp) |
 | 2259B | Minus Two | 800 | math, number theory | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codeforces/2259B-MinusTwo.cpp) |
 | 2260A | Monocarp's Contest | - | implementation | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codeforces/2260A-Monocarp'sContest.cpp) |
