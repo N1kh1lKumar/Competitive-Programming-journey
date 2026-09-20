@@ -35,25 +35,25 @@ The solutions in this repository are for learning and practice purposes. Some pr
 
 | Platform | Problems Solved |
 |---|---:|
-| Codeforces | 43 |
+| Codeforces | 44 |
 | CodeChef | 20 |
-| **Total** | **63** |
+| **Total** | **64** |
 
 ## 💻 Languages
 
 | Language | Problems |
 |---|---:|
-| C++ | 63 |
+| C++ | 64 |
 
 ## 🟦 Codeforces
 
-**Total Problems Solved:** 43
+**Total Problems Solved:** 44
 
 ### ⭐ Rating Distribution
 
 | Rating | Problems |
 |---:|---:|
-| 800 | 32 |
+| 800 | 34 |
 | 900 | 4 |
 | 1000 | 3 |
 | 1100 | 1 |
@@ -105,7 +105,8 @@ The solutions in this repository are for learning and practice purposes. Some pr
 | 2258B1 | Carrot Chopdown (Easy Version) | 900 | brute force, games, math | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/2258B1-CarrotChopdown(EasyVersion).cpp) |
 | 2259A | Moo Language School | 800 | brute force, greedy, two pointers | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codeforces/2259A-MooLanguageSchool.cpp) |
 | 2259B | Minus Two | 800 | math, number theory | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codeforces/2259B-MinusTwo.cpp) |
-| 2260A | Monocarp's Contest | - | implementation | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codeforces/2260A-Monocarp'sContest.cpp) |
+| 2260A | Monocarp's Contest | 800 | implementation | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codeforces/2260A-Monocarp'sContest.cpp) |
+| 2264A | Rumb Needs a Hand | 800 | implementation, sortings, two pointers | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/practice_question/2264A-RumbNeedsaHand.cpp) |
 
 ## 🟧 CodeChef
 
