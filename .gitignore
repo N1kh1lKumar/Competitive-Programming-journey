@@ -2,6 +2,7 @@
 .vscode
 .cph
 main.cpp
+main
 .*o
 *.out
 binary.cpp
