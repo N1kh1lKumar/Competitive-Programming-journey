@@ -36,14 +36,14 @@ The solutions in this repository are for learning and practice purposes. Some pr
 | Platform | Problems Solved |
 |---|---:|
 | Codeforces | 44 |
-| CodeChef | 20 |
-| **Total** | **64** |
+| CodeChef | 33 |
+| **Total** | **77** |
 
 ## 💻 Languages
 
 | Language | Problems |
 |---|---:|
-| C++ | 64 |
+| C++ | 77 |
 
 ## 🟦 Codeforces
 
@@ -110,29 +110,42 @@ The solutions in this repository are for learning and practice purposes. Some pr
 
 ## 🟧 CodeChef
 
-**Total Problems Solved:** 20
+**Total Problems Solved:** 33
 
 | Code | Problem | Rating | Tags | Language | Solution |
 |---|---|---:|---|---|---|
 | ADDIS | Additive Dissonance | 1064 | nishank_adm, start255 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/ADDIS-AdditiveDissonance.cpp) |
+| ANOTSTR | Another String | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/ANOTSTR-AnotherString.cpp) |
+| BUSSEAT | Bus Seating | 640 | cakewalk, raysh07_adm, start256 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/BUSSEAT-BusSeating.cpp) |
 | CFRTEST | Devu and friendshiptesting | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/CFRTEST-Devuandfriendshiptesting.cpp) |
 | DISTINCTCOL | Distinct Colors | 760 | Basic Math, Mathematics | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/DISTINCTCOL-DistinctColors.cpp) |
 | DOMINANT2 | Dominant Element | 1171 | Frequency Arrays, Data Structures, Arrays | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/DOMINANT2-Dominant_Element.cpp) |
 | EGGBUY | Buying Eggs | 181 | nishank_adm, start255 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/EGGBUY-BuyingEggs.cpp) |
+| EQREL | Equal Reservoir Levels | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/EQREL-EqualReservoirLevels.cpp) |
 | EQUALELE | Equal Elements | 1123 | Frequency Arrays, Data Structures, Arrays | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/EQUALELE-EqualElements.cpp) |
+| EXMRS | Exam Result | 284 | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/EXMRS-ExamResult.cpp) |
+| FIXEDPTS | Fixed Points | 884 | cakewalk, raysh07_adm, start256 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/FIXEDPTS-FixedPoints.cpp) |
 | GROFR | Chef and Groups | 1176 | Conditional Statements, ad-hoc, Brute Force, Basic Programming Concepts, Algorithms, Constructive | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/GROFR%20%20-%20ChefndGroups.cpp) |
 | LISH | Limited Ingredient Shopping | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/LISH-LimitedIngredientShopping.cpp) |
+| MADNER | Maximum Dance Partners | 1124 | Greedy, Algorithms | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MADNER-MaximumDancePartners.cpp) |
 | MAXSUM77 | Maximum Sum | 990 | raysh07_adm, start254 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MAXSUM77-MaximumSum.cpp) |
+| MISNUMM | Missing Numbers | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MISNUMM-MissingNumbers.cpp) |
 | MISSINGNUM7 | Missing Number | 151 | raysh07_adm, start254 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MISSINGNUM7-MissingNumber.cpp) |
 | MISSP | Chef and Dolls | 1012 | Frequency Arrays, Divisibility, Data Structures, Arrays, Mathematics, Modular Arithmetic | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MISSP-ChefandDolls.cpp) |
 | MNFLP | Minimum Flips | 781 | Basic Programming Concepts, Basic Math, Mathematics | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/MNFLP%20-%20Minimum-Flips.cpp) |
 | POSHOP | Posh Shopping | 773 | cakewalk, nishank_adm, start253 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/POSHOP%20-%20PoshShopping.cpp) |
+| POSSROLL | Possible Roll | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/POSSROLL-PossibleRoll.cpp) |
 | PWTHC | Enough Chairs | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/PWTHC%20-%20EnoughChairs.cpp) |
+| QUACHS | Quantum Chips | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/QUACHS-QuantumChips.cpp) |
 | REACHWT | Reach Weight | 530 | raysh07_adm, start254 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/REACHWT-ReachWeight.cpp) |
 | REGCLN | Regular Cleaning | 113 | cakewalk, nishank_adm, start253 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/REGCLN%20-%20RegularCleaning.cpp) |
 | RETAR | Funding ETA 6 | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/RETAR-Funding-ETA-6.cpp) |
 | SCOCN |  Second Occurrence | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/SCOCN-SecondOccurence.CPP) |
+| SHARING | Sharing Cookies | 232 | cakewalk, raysh07_adm, start256 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/SHARING-SharingCookies.cpp) |
+| TCTQU | Ticket Queue | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/TCTQU-TicketQueue.cpp) |
+| TYPWRL | Typing World | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/TYPWRL-TypingWorld.cpp) |
 | UNQSHF | Unequal Shuffle | 726 | nishank_adm, start255 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/UNQSHF-UnequalShuffle.cpp) |
 | WITRH | Within Reach | - | major_oasis_27 | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/WITRH%20-%20WithinReach.cpp) |
+| WRSTP | One Wrong Step | - | - | C++ | [View](https://github.com/N1kh1lKumar/Competitive-Programming-journey/blob/main/contest_question/codechef/WRSTP-OneWrongStep.cpp) |
 
 <!-- AUTO-GENERATED:END -->
